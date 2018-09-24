@@ -1,0 +1,53 @@
+.container {
+    height: 600px;
+    margin: 0 auto;
+}
+
+.field {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.field__table {
+    border-collapse: collapse;
+}
+
+.cell {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #1c1c1c;
+    font-size: 30px;
+    text-align: center;
+}
+
+.cell:hover {
+    cursor: pointer;
+}
+
+.cellNought {
+    background: url("img/zero.png");
+    background-size: cover;
+}
+
+.cellCross {
+    background: url("img/cross.png");
+    background-size: cover;
+}
+
+.header {
+    text-align: center;
+    font-size: 28px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.lower-header {
+    margin-bottom: 0;
+}
+
+.upper-header {
+    margin-top: 0;
+}
+
+
+
+
